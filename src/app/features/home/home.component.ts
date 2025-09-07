@@ -25,12 +25,52 @@ import { Component } from '@angular/core';
       </div>
     </div>
   </section>
+
   <section class="section bg-surfaceMuted">
-    <div class="container-page grid md:grid-cols-2 gap-10">
-      <div><h2 class="text-title text-4xl font-extrabold mb-4">¿Qué es un centro de conciliación extrajudicial?</h2></div>
-      <div class="text-muted">Un centro de conciliación facilita la resolución amigable de conflictos legales mediante métodos alternativos, promoviendo acuerdos justos y rápidos sin necesidad de acudir a la vía judicial.</div>
+    <div class="container-page grid md:grid-cols-2 gap-10 items-start">
+      <!-- Columna izquierda: título -->
+      <div>
+        <h2 class="text-title text-4xl font-extrabold mb-4">
+          ¿Qué es un centro de conciliación extrajudicial?
+        </h2>
+      </div>
+
+      <!-- Columna derecha: texto -->
+      <div class="text-muted">
+        Un centro de conciliación facilita la resolución amigable de conflictos legales
+        mediante métodos alternativos, promoviendo acuerdos justos y rápidos sin
+        necesidad de acudir a la vía judicial.
+      </div>
+
+      <!-- Galería: se alinea justo debajo y ocupa el ancho de ambas columnas -->
+      <div class="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+        <!-- Tarjeta de imagen 1 -->
+        <div class="rounded-2xl overflow-hidden shadow-soft border border-border w-full aspect-[4/3]">
+          <img src="assets/gallery/conciliacion-1.jpg"
+              alt="Descripción 1"
+              class="w-full h-full object-cover"
+              loading="lazy" />
+        </div>
+
+        <!-- Tarjeta de imagen 2 -->
+        <div class="rounded-2xl overflow-hidden shadow-soft border border-border w-full aspect-[4/3]">
+          <img src="assets/gallery/conciliacion-2.jpg"
+              alt="Descripción 2"
+              class="w-full h-full object-cover"
+              loading="lazy" />
+        </div>
+
+        <!-- Tarjeta de imagen 3 -->
+        <div class="rounded-2xl overflow-hidden shadow-soft border border-border w-full aspect-[4/3]">
+          <img src="assets/gallery/conciliacion-3.jpg"
+              alt="Descripción 3"
+              class="w-full h-full object-cover"
+              loading="lazy" />
+        </div>
+      </div>
     </div>
   </section>
+
   <section class="section">
     <div class="container-page">
       <div class="grid md:grid-cols-3 gap-6">
