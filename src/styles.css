@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --radius: 16px; }
+body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+
+.container-page { @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8; }
+.section { @apply py-16 sm:py-20; }
+.card { @apply rounded-2xl bg-surface shadow-soft border border-border; }
+.btn { @apply inline-flex items-center justify-center rounded-xl px-5 py-3 font-semibold transition; }
+.btn-primary { @apply btn bg-primary text-white hover:opacity-90; }
+.btn-outline { @apply btn border border-primary text-primary hover:bg-primary hover:text-white; }
+.badge { @apply inline-flex items-center rounded-full bg-secondary/10 text-secondary px-3 py-1 text-xs font-semibold; }
+.nav-link { @apply text-sm font-medium text-muted hover:text-title transition; }
+.hero-wrap { background: linear-gradient(180deg, var(--heroStart, #a5bfbf) 0%, #d6e3e3 100%); }
