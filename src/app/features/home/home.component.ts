@@ -18,11 +18,6 @@ import { Component } from '@angular/core';
           </a>
         </div>
       </div>
-      <div class="grid grid-cols-3 gap-4">
-        <img src="assets/tiles/1.jpg" class="rounded-xl shadow-soft border border-border" alt="Sala de conciliación">
-        <img src="assets/tiles/2.jpg" class="rounded-xl shadow-soft border border-border" alt="Acuerdo">
-        <img src="assets/tiles/3.jpg" class="rounded-xl shadow-soft border border-border" alt="Etapas de mediación">
-      </div>
     </div>
   </section>
 

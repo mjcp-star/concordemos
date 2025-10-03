@@ -33,7 +33,7 @@ import { Component } from '@angular/core';
         </div>
       </div>
     </div>
-    <div class="border-t border-border text-center text-xs text-muted py-4">© {{year}} Concordemos. Todos los derechos reservados.</div>
+    <div class="border-t border-border text-center text-xs text-muted py-4">© {{year}} Concordemos. Todos los derechos reservados. Malthos C</div>
   </footer>`
 })
 export class FooterComponent { year = new Date().getFullYear(); }
