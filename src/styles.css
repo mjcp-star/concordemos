@@ -14,3 +14,28 @@ body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, 
 .badge { @apply inline-flex items-center rounded-full bg-secondary/10 text-secondary px-3 py-1 text-xs font-semibold; }
 .nav-link { @apply text-sm font-medium text-muted hover:text-title transition; }
 .hero-wrap { background: linear-gradient(180deg, var(--heroStart, #a5bfbf) 0%, #d6e3e3 100%); }
+
+/* === Video de fondo para el hero === */
+.hero-video, .hero-wrap { position: relative; overflow: hidden; }
+.hero-video .bg-layer, .hero-wrap .bg-layer { position: absolute; inset: 0; z-index: 0; }
+.bg-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+
+/* Velo/overlay para legibilidad del texto (ajusta opacidades si quieres) */
+.hero-video::after { 
+  background: linear-gradient(180deg, rgba(0,0,0,.28), rgba(0,0,0,.12) 45%, transparent 75%);
+}
+
+/* Asegura que el contenido del hero quede por encima del video y del overlay */
+.hero-video .container-page, .hero-wrap .container-page { position: relative; z-index: 2; }
+
+/* Accesibilidad: usuarios con “reduced motion” no ven animación */
+/* @media (prefers-reduced-motion: reduce) {
+  .bg-video { display: none; }
+} */
+.bg-video {
+  display: block !important;
+  opacity: 1;
+  visibility: visible;
+}
+
+.hero-video { min-height: 68vh; }
