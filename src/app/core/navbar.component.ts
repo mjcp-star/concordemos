@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
     <div class="container-page h-16 flex items-center justify-between gap-4">
       <a routerLink="/" class="flex items-center gap-3">
         <div class="h-9 w-9 rounded-lg bg-primary grid place-items-center text-white font-extrabold">C</div>
-        <span class="font-extrabold text-title">Concordemos</span>
+        <span class="font-extrabold text-title">Conciliemos</span>
       </a>
       <nav class="hidden md:flex items-center gap-6">
         <a routerLink="/" routerLinkActive="text-title" class="nav-link">Inicio</a>

@@ -36,7 +36,7 @@ import { FormBuilder, Validators } from '@angular/forms';
             <p class="text-muted">Lunes a sábado de 9:00 a 19:00.</p>
             <div class="mt-3 grid gap-2 text-sm">
               <div>📞 +51 999 999 999</div>
-              <div>✉️ concordemos@ejemplo.pe</div>
+              <div>✉️ conciliemos@ejemplo.pe</div>
               <div>📍 Av. Luis Felipe Villarán 222, San Isidro, Lima</div>
             </div>
           </app-card>

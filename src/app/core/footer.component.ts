@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
         <div class="flex items-center gap-3 mb-3">
           <div class="h-9 w-9 rounded-lg bg-primary grid place-items-center text-white font-extrabold">C</div>
           <div>
-            <div class="text-title font-extrabold leading-4">Concordemos</div>
+            <div class="text-title font-extrabold leading-4">Conciliemos</div>
             <div class="text-[10px] text-muted -mt-1">Centro de Conciliación</div>
           </div>
         </div>
@@ -28,12 +28,12 @@ import { Component } from '@angular/core';
         <div class="font-semibold mb-3 text-title">Contacto</div>
         <div class="grid gap-2 text-muted">
           <div>Av. Luis Felipe Villarán 222, San Isidro, Lima</div>
-          <div>concordemos@ejemplo.pe</div>
+          <div>Conciliemos@ejemplo.pe</div>
           <div>+51 999 999 999</div>
         </div>
       </div>
     </div>
-    <div class="border-t border-border text-center text-xs text-muted py-4">© {{year}} Concordemos. Todos los derechos reservados. Malthos C</div>
+    <div class="border-t border-border text-center text-xs text-muted py-4">© {{year}} Conciliemos. Todos los derechos reservados. Malthos C</div>
   </footer>`
 })
 export class FooterComponent { year = new Date().getFullYear(); }
